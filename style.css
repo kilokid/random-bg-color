@@ -1,0 +1,32 @@
+body {
+    background-color: lightgreen;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#color {
+    color: white; 
+    margin: 50px auto 50px;
+}
+
+#change {
+    padding: 10px 15px;
+    background-color: #fff;
+    border: 2px solid lightblue;
+    font-size: 16px;
+    font-weight: 600;
+    color: lightpink;
+    cursor: pointer;
+}
+
+@media (max-width: 1025px) {
+    .wrapper {
+        width: 20%;
+    }
+}
